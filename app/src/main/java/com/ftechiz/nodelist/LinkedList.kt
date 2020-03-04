@@ -74,18 +74,5 @@ class LinkedList {
         println("Size  ==>$count")
     }
 
-    fun addAtPoint(point: Node, node1: Node) {
-        var temp = point
-
-        temp = temp.nxt!!
-
-        if (temp == null) {
-            var node4 = Node(4, null)
-            point.nxt = node4
-
-
-        }
-        println("New node  ==>$node1")
-    }
 
 }
